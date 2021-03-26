@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ElectroRex</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="Airpods (A) Segunda Generación  Colores.jpg" class="imgLogo" />
+
+      <h1 class="formulario__titulo">REGISTRO</h1>
+      <h3 class="formulario__subtitulo">Audifinos Inpods i12</h3>
+      <p class="formulario__parrafo">
+        Llena la informacion requerida para que te llegue a la puerta de tu casa... recuerda, pagas al recibir.
+      </p>
+
+      <label for="cliente" class="formulario__label">Nombre</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+        
+      />
+       
+     
+      <label for="Telefono" class="formulario__label">Telefono</label>
+      <input
+        id="Telefono"
+        type="text"
+        class="formulario__input"  
+              
+      />
+
+      <label for="ciudad" class="formulario__label"
+        >Indica tu ciudad</label
+      >
+      <input
+        id="ciudad"
+        type="text"
+        class="formulario__input"        
+      />
+
+      <label for="direccion" class="formulario__label"
+        >Indica la direccion</label
+      >
+      <input id="direccion" type="text" class="formulario__input" required />
+
+      <label for="color" class="formulario__label"
+        >color</label>
+        
+      <select id="color" 
+      name="listaempleados" 
+      class="formulario__input">
+        <option> Escoje tu color</option>
+        <option>Blanco</option>
+        <option>Amarillo</option>
+        <option>Gris</option>
+        <option>Verde</option>
+      </select>
+
+      <label for="cantidad" class="formulario__label">Cantidad</label>
+      
+        <input type="number" class="formulario__input" name="" id="" required><span class="barra"></span>
+        
+     
+
+      <label for="correo" class="formulario__label"
+        >Correo electronico</label>
+
+      <input id="correo" 
+      type="text" 
+      class="formulario__input" 
+      />
+
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">ENVIAR</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+</html>
+
+
+
